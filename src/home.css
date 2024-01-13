@@ -1,0 +1,27 @@
+.landing {
+  background-color: gray;
+  height: calc(100vh - 63px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.landing h2 {
+}
+.landing button {
+  padding: 8px 20px;
+  border-radius: 10px;
+  background-color: orange;
+  border: none;
+}
+.services {
+  padding: 80px 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.services .service {
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 10px;
+}

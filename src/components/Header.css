@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    background-color: #eee;
+}
+.header a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+}
+.header ul {
+    list-style: none;
+    display: flex;
+}
+.header ul li {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.header ul li:hover {
+    color: blue;
+}
